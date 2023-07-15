@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Epilogue', sans-serif;
+    src: url(./font/static/Epilogue-MediumItalic.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Epilogue', sans-serif;;
+    src: url(./font/static/Epilogue-BoldItalic.ttf);
+    font-weight:700 ;
+}
+
+body{
+    font-family: 'Epilogue', sans-serif;
+}
+.fontwith{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.542);
+}
+.fontbig{
+    font-size: 90px;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+@media(max-width: 992px)  {
+    
+    .fontbig{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.fontwith{
+    font-weight: 400;
+    font-size: 16px;
+}
+}
+@media(max-width: 769px)  {
+
+.imgsmal{
+    display: none;
+}
+.fontbig{
+    font-size: 33px;
+    font-weight: bold;
+    color: black;
+}
+.fontwith{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+}
+@media(min-width: 769px)  {
+.imgbig{
+    display: none;
+}
+
+}
+.blok{
+    display: none;
+}
+.none{
+    display: inline-block;
+}
+.on {
+    background-color:hsl(0, 0%, 98%);
+    width:160px;
+    padding: 10px;
+    border-radius: 25px;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    z-index: 2;
+}
+.too
+{   background-color: hsl(0, 0%, 98%);
+    width:160px;
+    border-radius: 25px;
+    position: absolute;
+    z-index: 2;
+    left: 300px;
+    top:80px;
+}
+.too ul li {
+    list-style-type: none;
+    margin: 10px 0px;
+    
+    
+}
+.black{
+    color: black;
+}
+.li1 {
+    padding: 5px;
+list-style: url(./images/icon-todo.svg);
+}
+.li2{
+      padding: 5px;
+list-style: url(./images/icon-calendar.svg);
+}
+.li3{
+      padding: 5px;
+list-style: url(./images/icon-reminders.svg);
+}
+ .li4{
+      padding: 5px;
+list-style: url(./images/icon-planning.svg);
+}
+.menu{
+    position: absolute;
+    background-color: rgb(245, 245, 245);
+    width: 70%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    z-index: 3;
+    display: none;
+
+}
+.bloook{
+    display: block;
+}
+.blooo{
+    display: none;
+}
+.li44 ul li{
+    list-style-type: none;
+}

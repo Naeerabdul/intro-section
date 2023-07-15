@@ -1,0 +1,79 @@
+.black{
+color: black;
+}
+*{   z-index: 1;
+    font-family:Epilogue;
+    
+}
+.fontsiz{
+    font-size: 90px; }
+@font-face {
+    font-family: Epilogue;
+    font-style: normal;
+    src: url(../static/Epilogue-Bold.ttf);
+    font-weight: 500;
+}
+@font-face {
+        font-style: normal;
+    font-family: Epilogue;
+    src: url(../static/Epilogue-BoldItalic.ttf);
+    font-weight: 700;
+}
+.blok{
+    display: none;
+}
+.none{
+    display: inline-block;
+}
+.on {
+    background-color:hsl(0, 0%, 98%);
+    width:160px;
+    padding: 10px;
+    border-radius: 25px;
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    z-index: 2;
+}
+.too
+{   background-color: hsl(0, 0%, 98%);
+    width:160px;
+    border-radius: 25px;
+    position: absolute;
+    z-index: 2;
+    left: 300px;
+    top:80px;
+}
+.too ul li {
+    list-style-type: none;
+    margin: 10px 0px;
+    
+    
+}
+.on ul .li1{
+    padding: 5px;
+list-style: url(../images/icon-todo.svg);
+}
+.on ul .li2{
+      padding: 5px;
+list-style: url(../images/icon-calendar.svg);
+}
+.on ul .li3{
+      padding: 5px;
+list-style: url(../images/icon-reminders.svg);
+}
+.on ul .li4{
+      padding: 5px;
+list-style: url(../images/icon-planning.svg);
+}
+@media(min-width:	720px)  {
+.big,.you{
+    display: none;
+}}
+@media(max-width: 	720px)  {
+    .im,.tow,.img ,.merhaba{
+    display: none;
+    }
+    .alin{
+    text-align: center;}
+    }
